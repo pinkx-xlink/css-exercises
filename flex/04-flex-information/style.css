@@ -5,11 +5,17 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+.text {
+display: flex;
+flex-wrap:wrap;
+width:200px;
 }
 
 /* do not edit this footer */
