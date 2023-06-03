@@ -26,6 +26,7 @@ a {
   justify-content: center;
   display:flex;
   flex-wrap: wrap;
+  margin:100px;
   }
 
 img {
@@ -55,9 +56,12 @@ input {
   display:flex;
   justify-content: space-between;
   margin-top:100px;
+  background-color: lightgray;
 }
 
 .footer .ul {
   display: flex;
   justify-content: stretch;
+  flex-basis: 200;
+
 }
