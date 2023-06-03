@@ -16,11 +16,16 @@ body {
   color: darkmagenta;
 }
 
+.container {
+  display: flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
 }
+
 
 .card {
   border: 1px solid #eee;
