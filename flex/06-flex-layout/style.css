@@ -17,6 +17,15 @@ body {
   gap:20px;
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
+
+.content {
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
+  }
 
 img {
   width: 600px;
@@ -36,3 +45,4 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
