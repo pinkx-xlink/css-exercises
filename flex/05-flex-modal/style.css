@@ -18,8 +18,17 @@ body {
 .modal {
   background: white;
   width: 480px;
+  text-align:left;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.header{
+  font-weight: 900;
+}
+.header, .text {
+  margin-left:52px;
+  margin-right:15px;
 }
 
 .icon {
@@ -66,4 +75,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.buttons {
+  margin-left: 52px;
+  margin-bottom: 20px;
 }
