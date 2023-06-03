@@ -20,6 +20,9 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  padding-top:36px;
 }
 
 .container {
@@ -32,6 +35,11 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-shrink:0;
+  color:white;
+}
+a {
+  color:white;
+  text-decoration: none;
 }
 
 .article {
