@@ -20,5 +20,13 @@ button {
 }
 
 @keyframes scale {
-  
+  from {
+    height: 100px;
+  }
+  50% {
+    height: 200px;
+  }
+  to {
+    height: 100px;
+  }
 }
