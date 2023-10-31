@@ -32,10 +32,10 @@ ul.dropdown-menu li:hover {
 
 @keyframes dropdown {
   from {
-    scale: 0;
+    scaleY: 0;
   }
   to {
-    scale: 5;
+    scaleY: 5;
   }
 }
 
