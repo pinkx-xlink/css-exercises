@@ -23,12 +23,12 @@ button:hover {
 }
 @keyframes scale {
   from {
-    width: 100px;
+    scale: 1;
   }
   50% {
-    width: 150px;
+    scale: 2;
   }
   to {
-    width: 100px;
+    scale: 1;
   }
 }
