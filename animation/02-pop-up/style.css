@@ -66,10 +66,8 @@ button {
 @keyframes slidein {
   from {
     margin-top: -50%;
-    height: 50%;
   }
   to {
     margin-top: 0%;
-    height: 30%;
   }
 }
