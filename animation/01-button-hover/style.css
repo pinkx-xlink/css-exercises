@@ -20,6 +20,7 @@ button {
 
 button:hover {
   animation: 2s scale;
+  cursor: pointer;
 }
 @keyframes scale {
   from {
