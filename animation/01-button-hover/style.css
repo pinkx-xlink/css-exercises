@@ -16,17 +16,19 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
-  animation: 2s scale;
 }
 
+button:hover {
+  animation: 2s scale;
+}
 @keyframes scale {
   from {
-    height: 100px;
+    width: 100px;
   }
   50% {
-    height: 200px;
+    width: 150px;
   }
   to {
-    height: 100px;
+    width: 100px;
   }
 }
